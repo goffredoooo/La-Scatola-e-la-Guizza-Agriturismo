@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Scatola e la Guizza Agriturismo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agriturismo - Homepage</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <p>viva gli sgombri</p>
+
+  <header>
+    <div class="logo">AGRITURISMO LA COLLINA</div>
+    <div class="contact">Tel: +39 0123 456789</div>
+    <button class="btn-prenota">Prenota</button>
+  </header>
+
+  <section class="carousel">
+    <button class="prev">&#10094;</button>
+    <div class="carousel-container">
+      <img src="img/carousel1.jpg" alt="Panorama agriturismo" class="active">
+      <img src="img/carousel2.jpg" alt="Ristorante rustico">
+      <img src="img/carousel3.jpg" alt="Camere accoglienti">
+    </div>
+    <button class="next">&#10095;</button>
+  </section>
+
+  <main>
+    <section class="intro">
+      <div class="image-placeholder">
+        <img src="img/agriturismo.jpg" alt="Agriturismo esterno">
+      </div>
+      <div class="story">
+        <h2>La nostra storia</h2>
+        <p>
+          Benvenuti nel nostro agriturismo, un luogo dove la tradizione si unisce
+          alla natura. Da generazioni coltiviamo la terra con amore e accogliamo
+          gli ospiti in un’atmosfera di pace e autenticità.
+        </p>
+      </div>
+    </section>
+
+    <section class="features">
+      <a href="camere.html" class="box">
+        <img src="img/camere.jpg" alt="Camere">
+        <h3>Camere</h3>
+      </a>
+
+      <a href="ristorante.html" class="box">
+        <img src="img/ristorante.jpg" alt="Ristorante">
+        <h3>Ristorante</h3>
+      </a>
+
+      <a href="intrattenimento.html" class="box">
+        <img src="img/intrattenimento.jpg" alt="Intrattenimento">
+        <h3>Intrattenimento</h3>
+      </a>
+
+      <a href="prenota.html" class="box">
+        <img src="img/prenota.jpg" alt="Prenota">
+        <h3>Prenota</h3>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-name">AGRITURISMO LA COLLINA</div>
+    <div class="footer-info">Piattaforma gestita da Google</div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
