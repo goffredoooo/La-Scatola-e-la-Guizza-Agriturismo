@@ -1,4 +1,3 @@
-/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,6 @@ body {
   color: #4b3a2f;
 }
 
-/* HEADER */
 header {
   display: flex;
   justify-content: space-between;
@@ -36,7 +34,6 @@ header .btn-prenota:hover {
   background-color: #f5e4c3;
 }
 
-/* CAROSELLO */
 .carousel {
   position: relative;
   width: 100%;
@@ -44,14 +41,19 @@ header .btn-prenota:hover {
   overflow: hidden;
   background-color: #f3e8d1;
 }
+.carousel-container {
+  width: 100%;
+  height: 100%;
+}
 
 .carousel-container img {
   width: 100%;
-  height: 350px;
+  height: 100%;
   object-fit: cover;
   display: none;
   transition: opacity 1s ease;
 }
+
 
 .carousel-container img.active {
   display: block;
@@ -78,7 +80,6 @@ header .btn-prenota:hover {
 .carousel .prev { left: 15px; }
 .carousel .next { right: 15px; }
 
-/* INTRO */
 .intro {
   display: flex;
   justify-content: space-around;
@@ -104,7 +105,6 @@ header .btn-prenota:hover {
   margin-bottom: 10px;
 }
 
-/* FEATURES */
 .features {
   display: flex;
   justify-content: space-around;
@@ -128,12 +128,12 @@ header .btn-prenota:hover {
 
 .features .box img {
   width: 100%;
-  height: 180px;
+  height: 100%;
+  aspect-ratio: 16 / 9; 
   object-fit: cover;
   transition: transform 0.5s ease;
 }
 
-/* EFFETTO ZOOM AL PASSAGGIO */
 .features .box:hover img {
   transform: scale(1.1);
 }
@@ -148,7 +148,7 @@ header .btn-prenota:hover {
   font-weight: bold;
 }
 
-/* FOOTER */
+
 footer {
   background-color: #b58e63;
   color: #fffdf7;
