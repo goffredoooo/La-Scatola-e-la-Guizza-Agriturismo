@@ -238,7 +238,7 @@ body {
 }
 
  HEAD
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -246,7 +246,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* NAVBAR */
+
 .navbar {
     background-color: #b88c5a;
     color: white;
@@ -286,7 +286,7 @@ body {
     text-decoration: underline;
 }
 
-/* HERO */
+
 .hero {
     background-color: #f8f1e5;
     padding: 60px 20px;
@@ -298,7 +298,7 @@ body {
     color: #6d4d2e;
 }
 
-/* CONTENUTO */
+
 .content-container {
     padding: 40px 20px;
     display: flex;
@@ -308,7 +308,7 @@ body {
 }
 
 
-/* TESTO SOTTO L’IMMAGINE */
+
 .box h2 {
     font-size: 24px;
     padding: 20px;
@@ -316,7 +316,7 @@ body {
     color: #6d4d2e;
 }
 
-/* FOOTER PIÙ BASSO */
+
 footer {
     background-color: #b88c5a;
     text-align: center;
@@ -326,20 +326,20 @@ footer {
     width: 100%;
 }
 body {
-    background-color: #faf6f1;   /* sfondo unico */
+    background-color: #faf6f1;   
 }
 
 .content-container {
     display: flex;
     justify-content: center;
-    gap: 50px;              /* Distanza identica tra le card */
+    gap: 50px;              
     padding: 40px;
 }
 
-/* CARD IDENTICHE */
+
 .boxx {
-    width: 380px;           /* Stesse dimensioni */
-    height: 500px;          /* Stessa altezza */
+    width: 380px;           
+    height: 500px;          
     background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
@@ -349,10 +349,10 @@ body {
     align-items: center;
 }
 
-/* IMMAGINE IDENTICA PER ENTRAMBE */
+
 .boxx img {
     width: 100%;
-    height: 330px;          /* Stessa altezza immagine */
+    height: 330px;          
     margin: 0;
     color: white;
     font-size: 22px;
@@ -434,7 +434,7 @@ body {
 }
 
 
-/* TITOLO UGUALE */
+
 .box h2 {
     margin-top: 20px;
     font-size: 22px;
@@ -454,7 +454,7 @@ body {
 }
 
 
-/* === PAGINA CAMERA DOPPIA === */
+
 
 .doppia-container {
     max-width: 1100px;
@@ -485,7 +485,7 @@ body {
     margin-bottom: 18px;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
     .doppia-container {
         flex-direction: column;
