@@ -3,51 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camere</title>
-    <link rel="stylesheet" href="css/style2.css">
+    <title>Le nostre camere</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+
+    <header class="navbar">
+        <h1 class="logo">AGRITURISMO LA SCATOLA E LA GUIZZA</h1>
+
         <nav>
             <ul>
-                <li>Prenota</li>
-                <li>Ristorante</li>
-                <li>Intrattenimento</li>
-                <li>Piscina</li>
+                <li><a href="#">Camere</a></li>
+                <li><a href="#">Ristorante</a></li>
+                <li><a href="#">Intrattenimento</a></li>
+                <li><a href="#" class="btn">Prenota</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="container">
-
-        <aside class="note">
-            <h3>Note</h3>
-        </aside>
-
-        <main>
-            <h1>Le nostre camere</h1>
-
-            <div class="camere">
-                <div class="box">
-                    <p>Doppia</p>
-                </div>
-
-                <div class="box">
-                    <p>Tripla</p>
-                </div>
-
-                <div class="box">
-                    <p>Quadrupla</p>
-                </div>
-            </div>
-        </main>
-
-    </div>
+  
+    <section class="titolo-sezione">
+        <h2>Le nostre camere</h2>
+    </section>
 
 
-    <footer>
-        <p>Piattaforma gestita da Google</p>
-    </footer>
+    <section class="camere-container">
 
+       <div class="card">
+        <a href="quadrupla.html"><img src="img/doppia.jpg" alt="Camera doppia"></a>
+        <h3>Doppia</h3>
+        
+      </div>
+
+
+        <div class="card">
+    <a href="quadrupla.html"><img src="img/tripla.jpg" alt="Camera tripla"></a>
+    <h3>Tripla</h3>
+
+</div>
+
+<div class="card">
+    <a href="quadrupla.html"><img src="img/quadrupla.jpg" alt="Camera quadrupla"></a>
+    <h3>Quadrupla</h3>
+  
+</div>
+
+
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
