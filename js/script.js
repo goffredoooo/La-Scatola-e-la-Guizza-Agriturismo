@@ -21,3 +21,4 @@ setInterval(() => {
   index = (index + 1) % images.length;
   showImage(index);
 }, 4000);
+
