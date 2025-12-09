@@ -337,7 +337,7 @@ body {
 }
 
 /* CARD IDENTICHE */
-.box {
+.boxx {
     width: 380px;           /* Stesse dimensioni */
     height: 500px;          /* Stessa altezza */
     background-color: #ffffff;
@@ -350,7 +350,7 @@ body {
 }
 
 /* IMMAGINE IDENTICA PER ENTRAMBE */
-.box img {
+.boxx img {
     width: 100%;
     height: 330px;          /* Stessa altezza immagine */
     margin: 0;
