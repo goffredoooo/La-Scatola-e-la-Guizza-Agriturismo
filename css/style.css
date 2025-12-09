@@ -237,6 +237,21 @@ body {
     margin-top: 40px;
 }
 
+ HEAD
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #b88c5a;
+    color: white;
+    padding: 15px 40px;
+}
 
 body {
     margin: 0;
@@ -256,6 +271,88 @@ body {
 }
 
 .navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+    background-color: #f8f1e5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #6d4d2e;
+}
+
+/* CONTENUTO */
+.content-container {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #faf6f1;
+}
+
+
+/* TESTO SOTTO L’IMMAGINE */
+.box h2 {
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    color: #6d4d2e;
+}
+
+/* FOOTER PIÙ BASSO */
+footer {
+    background-color: #b88c5a;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    background-color: #faf6f1;   /* sfondo unico */
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;              /* Distanza identica tra le card */
+    padding: 40px;
+}
+
+/* CARD IDENTICHE */
+.boxx {
+    width: 380px;           /* Stesse dimensioni */
+    height: 500px;          /* Stessa altezza */
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* IMMAGINE IDENTICA PER ENTRAMBE */
+.boxx img {
+    width: 100%;
+    height: 330px;          /* Stessa altezza immagine */
     margin: 0;
     color: white;
     font-size: 22px;
@@ -336,6 +433,14 @@ body {
     display: block;
 }
 
+
+/* TITOLO UGUALE */
+.box h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #6d4d2e;
+    text-align: center;
+}
 
 .card h3 {
     margin: 20px;
