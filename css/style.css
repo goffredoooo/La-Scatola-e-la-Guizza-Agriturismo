@@ -229,13 +229,7 @@ body {
     font-weight: bold;
 }
 
-.footer {
-    background: #8c6b47;
-    color: white;
-    text-align: right;
-    padding: 12px 20px;
-    margin-top: 40px;
-}
+
 
  HEAD
 
@@ -317,14 +311,7 @@ body {
 }
 
 
-footer {
-    background-color: #b88c5a;
-    text-align: center;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+
 body {
     background-color: #faf6f1;   
 }
